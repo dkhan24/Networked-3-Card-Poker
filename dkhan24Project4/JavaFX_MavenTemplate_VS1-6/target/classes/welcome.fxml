@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="225.0" prefWidth="413.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="welcomecontroller">
+
+   <children>
+
+      <ImageView fitHeight="225.0" fitWidth="420.0" layoutX="-7.0">
+         <image>
+            <Image url="@./poker3.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="86.0" layoutY="40.0" prefHeight="65.0" prefWidth="220.0" text="  WELCOME" textFill="#754c7a" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font name="Courier New Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="69.0" layoutY="130.0" mnemonicParsing="false" onAction="#onStartServerClicked" text="START SERVER" fx:id="startbutton"/>
+      <TextField layoutX="226.0" layoutY="130.0" text="ENTER PORT" fx:id="portTextField"/>
+   </children>
+</AnchorPane>
